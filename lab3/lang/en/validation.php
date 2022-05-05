@@ -101,10 +101,10 @@ return [
     'not_regex' => 'The :attribute format is invalid.',
     'numeric' => 'The :attribute must be a number.',
     'password' => [
-        'letters' => 'The :attribute must contain at least one letter.',
         'mixed' => 'The :attribute must contain at least one uppercase and one lowercase letter.',
-        'numbers' => 'The :attribute must contain at least one number.',
+        'letters' => 'The :attribute must contain at least one letter.',
         'symbols' => 'The :attribute must contain at least one symbol.',
+        'numbers' => 'The :attribute must contain at least one number.',
         'uncompromised' => 'The given :attribute has appeared in a data leak. Please choose a different :attribute.',
     ],
     'present' => 'The :attribute field must be present.',
